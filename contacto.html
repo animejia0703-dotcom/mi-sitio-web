@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Ana Paola Chávez Mejía</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <a href="index.html"><img id="logo" src="img/logo.svg" alt="Logotipo con las iniciales AP"></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre-mi.html">Sobre mí</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="portafolio.html">Portafolio</a></li>
+        <li><a href="contacto.html" class="activo" aria-current="page">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <h1>Contacto</h1>
+    <div class="contacto">
+      <section class="datos">
+        <img src="img/mapa.jpg" alt="Mapa de ubicación en Google Maps">
+        <h2>Mapa de ubicación</h2>
+        <ul>
+          <li><img src="img/ico-pin.svg" alt="" class="icono"> Morelos, México</li>
+          <li><img src="img/ico-mail.svg" alt="" class="icono"> <a href="mailto:20253ds165@utez.edu.mx">20253ds165@utez.edu.mx</a></li>
+          <li><img src="img/ico-phone.svg" alt="" class="icono"> 777 120 0000</li>
+        </ul>
+        <a href="https://www.google.com/maps" target="_blank" rel="noopener">Abrir en Google Maps</a>
+      </section>
+      <form class="formulario" action="#" method="post">
+        <label for="nombre"><img src="img/ico-user.svg" alt="" class="icono"> Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="correo"><img src="img/ico-mail.svg" alt="" class="icono"> Correo</label>
+        <input type="email" id="correo" name="correo">
+        <label for="comentarios">Comentarios</label>
+        <textarea id="comentarios" name="comentarios" rows="5"></textarea>
+        <button type="submit" class="boton-primario">Enviar</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="pie">
+    <div class="redes">
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="img/facebook.svg" alt="Facebook"></a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="img/instagram.svg" alt="Instagram"></a>
+    </div>
+    <a href="contacto.html"><img src="img/chat.svg" alt="Ir a la página de contacto"></a>
+  </footer>
+</body>
+</html>
